@@ -30,6 +30,13 @@ Machine.init(
         // 'isDate: true' - only allow date strings "2011-11-28"
         isDate: true, 
     },
+    operator_id: {
+      type: DataTypes.INTEGER,
+      references: {
+        model: 'operator',
+        key: 'id',
+      },
+    },
   },
   {
     hooks: {
