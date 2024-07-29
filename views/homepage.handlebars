@@ -1,4 +1,4 @@
-<h4>Welcome, {{operator.operator_name}}</h4>
+<h4>Welcome, {{machine.operator.operator_name}}</h4>
 
 <p>Choose the Machine you are assigned to run today:</p>
 {{#each machines as |machine| }}
@@ -6,10 +6,14 @@
   <div class="col-md-6">
 
     {{!-- {{#if machine.emloyeeID === 104}}
-        <p>{{machine.machine_name}}</p>
+        <p><a href="/{{machine.machine_name}}</p>
     {{/if}} --}}
 
     <p>{{machine.machine_name}}</p>
+    <p>{{machine.id}}</p>
+    <p>{{machine.employeeID}}</p>
+    <p>{{machine.operator.operator_name}}</p>
+    <hr/>
 
 
   </div>
@@ -19,7 +23,7 @@
 </div>
 {{/each}}
 
-<a href="/project/{{project.id}}">{{project.name}}</a>
+<a href="/project/{{machine.id}}">{{machine.id}}</a>
 
 
 

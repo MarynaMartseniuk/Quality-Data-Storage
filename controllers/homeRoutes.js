@@ -20,7 +20,7 @@ router.get('/', withAuth, async (req, res) => {
       include: [
         {
           model: Operator,
-          attributes: ['operator_name'],
+          attributes: ['operator_name', 'employee_id'],
         },
       ],
     });
