@@ -29,11 +29,11 @@ Machine.init(
         // 'isDate: true' - only allow date strings "2011-11-28"
         isDate: true, 
     },
-    employeeID: {
+    employee_i_d: {
       type: DataTypes.INTEGER,
       references: {
         model: 'operator',
-        key: 'employeeid',
+        key: 'employee_i_d',
       },
     },
   },

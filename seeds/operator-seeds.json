@@ -1,7 +1,7 @@
 [
     {
         "operator_name": "Yash",
-        "employeeid": "101",
+        "employee_i_d": "101",
         "role": "operator",
         "registration_date": "2020-02-15",
         "email": "yash@vitamins.com",
@@ -9,7 +9,7 @@
     },
     {
         "operator_name": "David",
-        "employeeid": "102",
+        "employee_i_d": "102",
         "role": "operator",
         "registration_date": "2015-05-28",
         "email": "david@vitamins.com",
@@ -17,7 +17,7 @@
     },
     {
         "operator_name": "Jhon",
-        "employeeid": "103",
+        "employee_i_d": "103",
         "role": "operator",
         "registration_date": "2020-02-15",
         "email": "jhon@vitamins.com",
@@ -26,7 +26,7 @@
     },
     {
         "operator_name": "Mary",
-        "employeeid": "104",
+        "employee_i_d": "104",
         "role": "operator",
         "registration_date": "1995-03-01",
         "email": "mary@vitamins.com",
@@ -35,7 +35,7 @@
     },
     {
         "operator_name": "Dhruva",
-        "employeeid": "105",
+        "employee_i_d": "105",
         "role": "operator",
         "registration_date": "2022-08-17",
         "email": "dhruva@vitamins.com",

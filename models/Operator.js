@@ -23,7 +23,7 @@ Operator.init(
       isAlpha: true,
       allowNull: false,
     },
-    employeeid: {
+    employee_i_d: {
       type: DataTypes.INTEGER,
       unique: true,
       allowNull: false,

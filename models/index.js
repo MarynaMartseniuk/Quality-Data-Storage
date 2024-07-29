@@ -7,12 +7,12 @@ const Machine = require('./Machine.js');
 
 //connections for MachineAccess-Operator-Machine tables 
 Operator.hasMany(Machine, {
-    foreignKey: 'employeeID',
+    foreignKey: 'employee_i_d',
     onDelete: 'CASCADE',
 });
 
 Machine.belongsTo(Operator, {
-  foreignKey: 'employeeID',
+  foreignKey: 'employee_i_d',
 });
 
 // Machine.hasMany(Sample, {
