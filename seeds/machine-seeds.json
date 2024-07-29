@@ -1,18 +1,67 @@
 [
     {
         "machine_name": "A",
-        "registration_date": "2017-10-21"
+        "registration_date": "2017-10-21",
+        "employeeID":"102"
+    },
+    {
+        "machine_name": "A",
+        "registration_date": "2017-10-21",
+        "employeeID":"103"
+    },
+    {
+        "machine_name": "A",
+        "registration_date": "2017-10-21",
+        "employeeID":"104"
     },
     {
         "machine_name": "B",
-        "registration_date": "2017-10-15"
+        "registration_date": "2017-10-15",
+        "employeeID":"101"
+    },
+    {
+        "machine_name": "B",
+        "registration_date": "2017-10-15",
+        "employeeID":"105"
+    },
+    {
+        "machine_name": "B",
+        "registration_date": "2017-10-15",
+        "employeeID":"104"
     },
     {
         "machine_name": "C",
-        "registration_date": "2017-10-08"
+        "registration_date": "2017-10-08",
+        "employeeID":"101"
+    },
+    {
+        "machine_name": "C",
+        "registration_date": "2017-10-08",
+        "employeeID":"102"
+    },
+    {
+        "machine_name": "C",
+        "registration_date": "2017-10-08",
+        "employeeID":"104"
+    },
+    {
+        "machine_name": "C",
+        "registration_date": "2017-10-08",
+        "employeeID":"105"
     },
     {
         "machine_name": "D",
-        "registration_date": "2017-11-05"
+        "registration_date": "2017-11-05",
+        "employeeID":"101"
+    },
+    {
+        "machine_name": "D",
+        "registration_date": "2017-11-05",
+        "employeeID":"102"
+    },
+    {
+        "machine_name": "D",
+        "registration_date": "2017-11-05",
+        "employeeID":"103"
     }
 ]

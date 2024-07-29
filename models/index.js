@@ -6,12 +6,12 @@ const Machine = require('./Machine.js');
 
 //connections for MachineAccess-Operator-Machine tables 
 Operator.hasMany(Machine, {
-    foreignKey: 'operator_id',
+    foreignKey: 'employeeID',
     onDelete: 'CASCADE',
 });
 
 Machine.belongsTo(Operator, {
-  foreignKey: 'operator_id',
+  foreignKey: 'employeeID',
 });
 
 

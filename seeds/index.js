@@ -20,15 +20,16 @@ const seedDatabase = async () => {
     returning: true,
   });
 
-  await MachineAccess.bulkCreate(machineAccessData , {
-    individualHooks: true,
-    returning: true,
-  });
+  // await MachineAccess.bulkCreate(machineAccessData , {
+  //   individualHooks: true,
+  //   returning: true,
+  // });
 
-  await Sample.bulkCreate(sampleData , {
-    individualHooks: true,
-    returning: true,
-  });
+  // await Sample.bulkCreate(sampleData , {
+  //   individualHooks: true,
+  //   returning: true,
+  // });
+  
   process.exit(0);
 
 };

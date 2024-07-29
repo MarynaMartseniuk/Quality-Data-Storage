@@ -18,8 +18,7 @@ Machine.init(
         type: DataTypes.STRING,
         isAlpha: true,
         allowNull: false,
-        unique: true,
-        // must be 1 character long
+         // must be 1 character long
         validate: {
           len: [1],
         },
@@ -30,11 +29,11 @@ Machine.init(
         // 'isDate: true' - only allow date strings "2011-11-28"
         isDate: true, 
     },
-    operator_id: {
+    employeeID: {
       type: DataTypes.INTEGER,
       references: {
         model: 'operator',
-        key: 'id',
+        key: 'employee_id',
       },
     },
   },
