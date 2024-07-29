@@ -33,7 +33,7 @@ Machine.init(
       type: DataTypes.INTEGER,
       references: {
         model: 'operator',
-        key: 'employee_id',
+        key: 'employeeid',
       },
     },
   },
