@@ -1,10 +1,10 @@
 const sequelize = require('../config/connection');
-const {Machine, Operator, MachineAccess, Sample } = require('../models');
+const {Machine, Operator } = require('../models');
 
 const machineData = require('./machine-seeds.json');
-const machineAccessData = require('./machineAccess-seeds.json');
+// const machineAccessData = require('./machineAccess-seeds.json');
 const operatorData = require('./operator-seeds.json');
-const sampleData = require('./sample-seeds.json');
+// const sampleData = require('./sample-seeds.json');
 
 const seedDatabase = async () => {
 
@@ -20,15 +20,16 @@ const seedDatabase = async () => {
     returning: true,
   });
 
-  await MachineAccess.bulkCreate(machineAccessData , {
-    individualHooks: true,
-    returning: true,
-  });
+  // await MachineAccess.bulkCreate(machineAccessData , {
+  //   individualHooks: true,
+  //   returning: true,
+  // });
 
-  await Sample.bulkCreate(sampleData , {
-    individualHooks: true,
-    returning: true,
-  });
+  // await Sample.bulkCreate(sampleData , {
+  //   individualHooks: true,
+  //   returning: true,
+  // });
+  
   process.exit(0);
 
 };

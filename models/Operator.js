@@ -23,6 +23,11 @@ Operator.init(
       isAlpha: true,
       allowNull: false,
     },
+    employee_i_d: {
+      type: DataTypes.INTEGER,
+      unique: true,
+      allowNull: false,
+    },
     role: {
       type: DataTypes.STRING,
       isAlpha: true,

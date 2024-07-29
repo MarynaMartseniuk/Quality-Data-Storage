@@ -18,13 +18,13 @@ Sample.init(
         type: DataTypes.STRING,
         allowNull: false,
     },
-    // This column will contain a foreign key: the `id` of the `Machine` that owns this Sample
-    machine_id: {
-      type: DataTypes.INTEGER,
+    // This column will contain a foreign key: the `machine_name` of the `Machine` that owns this Sample
+    machineName: {
+      type: DataTypes.STRING,
       references: {
           // This references areconnected to the `Machine` model, which has machine `id`
           model: 'machine',
-          key: 'id',
+          key: 'machine_name',
       },
   },
   },

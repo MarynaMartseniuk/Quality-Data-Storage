@@ -10,7 +10,7 @@ body {
     flex-direction: column;
     min-height: 100vh;
     justify-content: flex-start;
-    background-color: var(--quatrinary);
+    background-color: rgb(240, 243, 255);
   }
 header {
     padding: 40px;
@@ -55,7 +55,7 @@ footer {
   .products {
     
     /* background-color: #fff; */
-    background-color: rgb(216, 229, 255);
+    background-color: rgb(240, 243, 255);
     padding: 50px;
     display: flex;
     flex-wrap: wrap;
@@ -71,7 +71,7 @@ footer {
   
   .gallery {
     flex: 4;
-    background-color: #fff;
+    background-color: rgb(240, 243, 255);
     padding: 50px;
     display: flex;
     flex-flow: row wrap;
@@ -85,19 +85,19 @@ footer {
   main,
   nav {
     flex-direction: column;
-    background-color: #bb8588;
+    background-color: #d8a47f;
   }
   aside {
     order: 2;
   }
   header {
-    background: #772014;
+    background: #13293d;
   }
 }
 
 @media screen and (max-width: 576px) {
   .sample-img {
-    background-color: #8ac4ff;
+    background-color: rgb(240, 243, 255);
   }
 }
 
