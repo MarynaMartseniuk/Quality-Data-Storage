@@ -18,7 +18,7 @@ Sample.init(
         type: DataTypes.STRING,
         allowNull: false,
     },
-    // This column will contain a foreign key: the `id` of the `Machine` that owns this Sample
+    // This column will contain a foreign key: the `machine_name` of the `Machine` that owns this Sample
     machineName: {
       type: DataTypes.STRING,
       references: {
