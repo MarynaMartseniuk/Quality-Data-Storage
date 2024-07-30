@@ -2,66 +2,66 @@
     {
         "machine_name": "A",
         "registration_date": "2017-10-21",
-        "employee_i_d":"102"
+        "employee_id":"102"
     },
     {
         "machine_name": "A",
         "registration_date": "2017-10-21",
-        "employee_i_d":"103"
+        "employee_id":"103"
     },
     {
         "machine_name": "A",
         "registration_date": "2017-10-21",
-        "employee_i_d":"104"
+        "employee_id":"104"
     },
     {
         "machine_name": "B",
         "registration_date": "2017-10-15",
-        "employee_i_d":"101"
+        "employee_id":"101"
     },
     {
         "machine_name": "B",
         "registration_date": "2017-10-15",
-        "employee_i_d":"105"
+        "employee_id":"105"
     },
     {
         "machine_name": "B",
         "registration_date": "2017-10-15",
-        "employee_i_d":"104"
+        "employee_id":"104"
     },
     {
         "machine_name": "C",
         "registration_date": "2017-10-08",
-        "employee_i_d":"101"
+        "employee_id":"101"
     },
     {
         "machine_name": "C",
         "registration_date": "2017-10-08",
-        "employee_i_d":"102"
+        "employee_id":"102"
     },
     {
         "machine_name": "C",
         "registration_date": "2017-10-08",
-        "employee_i_d":"104"
+        "employee_id":"104"
     },
     {
         "machine_name": "C",
         "registration_date": "2017-10-08",
-        "employee_i_d":"105"
+        "employee_id":"105"
     },
     {
         "machine_name": "D",
         "registration_date": "2017-11-05",
-        "employee_i_d":"101"
+        "employee_id":"101"
     },
     {
         "machine_name": "D",
         "registration_date": "2017-11-05",
-        "employee_i_d":"102"
+        "employee_id":"102"
     },
     {
         "machine_name": "D",
         "registration_date": "2017-11-05",
-        "employee_i_d":"103"
+        "employee_id":"103"
     }
 ]

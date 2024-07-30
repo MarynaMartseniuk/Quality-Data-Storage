@@ -4,13 +4,21 @@ const withAuth = require('../utils/auth');
 
 router.get('/', withAuth, async (req, res) => {
   try {
-    // const userData = await Operator.findAll({
-    //   attributes: { exclude: ['password'] },
-    //   order: [['operator_name', 'ASC']],
+    // console.log(req.session);
+    // const userData = await Operator.findByPk(req.session.user_id, {
+
+    //   // attributes: { exclude: ['password'] },
+    //   // order: [['operator_name', 'ASC']],
+    //   // include: [
+    //   //   {
+    //   //     model: machine,
+    //   //     attributes: ["machine_name", "id"],
+    //   //   }
+    //   // ]
     // });
 
     // const operators = userData.map((user) => user.get({ plain: true }));
-
+    // console.log(operators);
     // res.render('homepage', {
     //   operators,
     //   logged_in: req.session.logged_in,
@@ -20,12 +28,15 @@ router.get('/', withAuth, async (req, res) => {
       include: [
         {
           model: Operator,
-          attributes: ['operator_name', 'employee_id'],
+          attributes: {exclude: ["password"]},
         },
       ],
     });
 
     const machines = machineData.map((machine) => machine.get({ plain: true }));
+    console.log(machines);
+    
+    // console.log(req.session);
 
     res.render('homepage', { 
       machines, 

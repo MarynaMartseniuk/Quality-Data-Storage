@@ -4,6 +4,7 @@ const { Operator } = require('../../models');
 router.post('/login', async (req, res) => {
   try {
     const userData = await Operator.findOne({ where: { email: req.body.email } });
+    console.log(userData, "+++++++++++++");
 
     if (!userData) {
       res
@@ -20,7 +21,6 @@ router.post('/login', async (req, res) => {
         .json({ message: 'Incorrect email or password, please try again' });
       return;
     }
-
     req.session.save(() => {
       req.session.user_id = userData.id;
       req.session.logged_in = true;
