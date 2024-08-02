@@ -38,7 +38,7 @@ After this WebApp adjusted by a Company needs then:
 6. from the home page you can acces to the page with audit info (results of samples). As for now this access is available for any employee. But in our plans to make it optional.
 
 ## This WebApp is still under developing
-![Now this WebPage as it looks like](https://github.com/)
+![Now this WebPage as it looks like](https://github.com/MarynaMartseniuk/Quality-Data-Storage/blob/main/public/assets/home-page.jpg/)
 
 Our plans:
 1. work on appearance
